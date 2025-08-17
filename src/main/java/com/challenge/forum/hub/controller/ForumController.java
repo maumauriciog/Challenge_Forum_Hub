@@ -17,9 +17,9 @@ public class ForumController {
     private TopicoRepository repository;
 
     @PostMapping
-    //por se tratar de inserção no banco de dados, ela deve ser do tipo transação
     @Transactional
     public void CadastrarTopico(@RequestBody DadosCadastroForum dadosCadastroForum) {
         repository.save(new Topico(dadosCadastroForum));
+        System.out.println(dadosCadastroForum);
     }
 }

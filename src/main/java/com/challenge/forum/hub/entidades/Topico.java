@@ -8,7 +8,8 @@ import lombok.*;
 @Entity
 @Table(name = "topicos")
 //cria os métodos get e setters
-@Getter @Setter
+@Getter
+@Setter
 //cria um construtor sem argumentos
 @NoArgsConstructor
 //cria um construtor com argumentos necessário
@@ -19,16 +20,22 @@ public class Topico {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String menssagem;
+
+    private String titulo;
+    private String mensagem;
+    private String datacriacao;
+    private String estadotopico;
+    private String autor;
 
     @Enumerated(EnumType.STRING)
     private Curso curso;
-    private String titulo;
 
     public Topico(DadosCadastroForum dadosCadastroForum) {
-        this.menssagem = dadosCadastroForum.menssagem();
-        this.curso = dadosCadastroForum.curso();
         this.titulo = dadosCadastroForum.titulo();
-
+        this.mensagem = dadosCadastroForum.mensagem();
+        this.datacriacao = dadosCadastroForum.datacriacao();
+        this.estadotopico = dadosCadastroForum.estadotopico();
+        this.autor = dadosCadastroForum.autor();
+        this.curso = dadosCadastroForum.curso();
     }
 }
