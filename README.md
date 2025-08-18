@@ -9,12 +9,12 @@ O Challenge Forum Hub, é um projeto final oferecido pela alura Challenge Back-E
 
 > autenticação utilizando token, login com usuário e senha cadastrado no banco de dados; validações utilizando as requisições GET, POST, PUT e DELETE, segurança com autenticação stateless via Tokens JWT e persistência de dados.
 
-- **customizável**
+- **tecnologias**
 
-> o usuário vai poder realizar a conversão quantas vezes for necessário enquanto o programa estiver em execução, evitando encerrar para obter uma nova consulta.
+> java, Spring Boot, Spring Security (JWT), Spring Data JPA, Flyway (Migrations), MySQL, Swagger/OpenAPI.
 
 ## Compilando e Executando o Conversor de Moedas
-Certifique-se de ter o [intelliJ](https://www.jetbrains.com/idea/download/?section=windows) e a biblioteca [GSON](https://mvnrepository.com/search?q=GSON) instalado / baixado, e siga as instruções conforme abaixo:
+Certifique-se de ter o [intelliJ](https://www.jetbrains.com/idea/download/?section=windows)
 1. Faça o download do código fonte:
 
 ```sh
