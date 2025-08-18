@@ -1,0 +1,9 @@
+package com.challenge.forum.hub.repository;
+
+import com.challenge.forum.hub.entidades.usuario.Usuario;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.security.core.userdetails.UserDetails;
+
+public interface UsuarioRepository extends JpaRepository<Usuario, Long> {
+    UserDetails findbyLogin(String login);
+}

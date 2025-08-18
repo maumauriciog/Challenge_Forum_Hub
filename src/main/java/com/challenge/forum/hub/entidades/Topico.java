@@ -38,11 +38,79 @@ public class Topico {
     }
 
     public void atualizarInformacoes(@Valid DadosAtualizacoesForum dadosAtualizacoesForum) {
-        this.titulo = dadosAtualizacoesForum.titulo();
-        this.mensagem = dadosAtualizacoesForum.mensagem();
-        this.datacriacao = dadosAtualizacoesForum.datacriacao();
-        this.estadotopico = dadosAtualizacoesForum.estadotopico();
-        this.autor = dadosAtualizacoesForum.autor();
-        this.curso = dadosAtualizacoesForum.curso();
+        if (dadosAtualizacoesForum.titulo() != null) {
+            this.titulo = dadosAtualizacoesForum.titulo();
+        }
+        if (dadosAtualizacoesForum.mensagem() != null) {
+            this.mensagem = dadosAtualizacoesForum.mensagem();
+        }
+        if (dadosAtualizacoesForum.datacriacao() != null) {
+            this.datacriacao = dadosAtualizacoesForum.datacriacao();
+        }
+        if (dadosAtualizacoesForum.estadotopico() != null) {
+            this.estadotopico = dadosAtualizacoesForum.estadotopico();
+        }
+        if (dadosAtualizacoesForum.autor() != null) {
+            this.autor = dadosAtualizacoesForum.autor();
+        }
+        if (dadosAtualizacoesForum.curso() != null) {
+            this.curso = dadosAtualizacoesForum.curso();
+        }
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+
+    public String getMensagem() {
+        return mensagem;
+    }
+
+    public void setMensagem(String mensagem) {
+        this.mensagem = mensagem;
+    }
+
+    public String getDatacriacao() {
+        return datacriacao;
+    }
+
+    public void setDatacriacao(String datacriacao) {
+        this.datacriacao = datacriacao;
+    }
+
+    public String getEstadotopico() {
+        return estadotopico;
+    }
+
+    public void setEstadotopico(String estadotopico) {
+        this.estadotopico = estadotopico;
+    }
+
+    public String getAutor() {
+        return autor;
+    }
+
+    public void setAutor(String autor) {
+        this.autor = autor;
+    }
+
+    public Curso getCurso() {
+        return curso;
+    }
+
+    public void setCurso(Curso curso) {
+        this.curso = curso;
     }
 }
