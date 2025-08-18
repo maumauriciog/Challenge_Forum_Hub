@@ -1,9 +1,9 @@
 # Forum Hub&emsp;![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)<img src="https://img.shields.io/badge/IntelliJ_IDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white" /><img src="https://img.shields.io/badge/json-5E5C5C?style=for-the-badge&logo=json&logoColor=white" />
-O Challenge Forum Hub, é um dos projetos oferecido pelo programa de educação e empregabilidade em parceria com alura. Este challenge, foi um desafio proposto após a conclusão do módulo spring boot. Módulo que pertence ao programa de de capacitação ao qual estou incluído.
+O Challenge Forum Hub, é um dos projetos oferecidos pelo ONE - programa de educação e empregabilidade em parceria com alura. Este challenge, foi um desafio obrigatório após a conclusão do módulo spring boot. Módulo que pertence ao programa de capacitação ao qual estou incluído.
 
 - **objetivo**
 
-> desenvolvido em beck end java, o projeto API Rest realizar teste de autenticação (token e usuário / senha cadastrados no banco de dados) com as requisições GET, POST, PUT e DELETE via postman ou qualquer outra ferramente cliente HTTP de código aberto que possa testar APIs que oferecem recursos de autenticação.
+> desenvolvido em beck end java, o projeto API Rest realizar testes de autenticação (token e usuário / senha cadastrados no banco de dados) com as requisições GET, POST, PUT e DELETE via postman ou qualquer outra ferramenta cliente HTTP de código aberto que possa testar APIs que oferecem recursos de autenticação.
 
 - **o que encontrar**
 
