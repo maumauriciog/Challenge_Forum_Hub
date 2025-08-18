@@ -90,4 +90,5 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## Agradecimento Especial
 programa de educação e empregabilidade - ONE.
-&emsp;&emsp;<img src="one.png" width="400">
+
+&emsp;&emsp;<img src="one.png" width="200">
