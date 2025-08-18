@@ -18,7 +18,7 @@ O Challenge Forum Hub, é um projeto final oferecido pela alura Challenge Back-E
 > .
 
 ## Compilando e Executando o Forum Hub
-Certifique-se de ter o [intelliJ](https://www.jetbrains.com/idea/download/?section=windows) e o [postman(https://www.jetbrains.com/idea/download/?section=windows](https://www.postman.com/downloads/)
+Certifique-se de ter o [intelliJ](https://www.jetbrains.com/idea/download/?section=windows) e o [postman](https://www.postman.com/downloads/):
 
 1. Faça o download do código fonte:
 
