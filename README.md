@@ -1,9 +1,9 @@
 # Forum Hub&emsp;![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)<img src="https://img.shields.io/badge/IntelliJ_IDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white" /><img src="https://img.shields.io/badge/json-5E5C5C?style=for-the-badge&logo=json&logoColor=white" />
-O Challenge Conversor de Moedas, é um projeto final do curso de java - orientação a objetos. Oferece interação textual (via console) com os usuários, proporcionando no mínimo 6(seis) opções distintas de conversões de moedas em um menu. A taxa de conversão não será estática, mas sim dinamicamente obtida por meio de uma API, garantindo dados precisos em tempo real para uma experiência mais atualizada e eficaz.
+O Challenge Forum Hub, é um projeto final oferecido pela alura Challenge Back-End (Oracle Next Education).
 
 - **objetivo**
 
-> Via console, o usuário vai entrar com a opção que deseja dentro desse menu, e depois disso vai informar qual é o valor que deseja converter.
+> simular .
 
 - **o que encontrar**
 
