@@ -3,7 +3,7 @@ O Challenge Forum Hub, é um projeto final oferecido pela alura Challenge Back-E
 
 - **objetivo**
 
-> desenvolvido em beck end, utilizando API Rest,  .
+> desenvolvido em beck end java, utilizando API Rest.
 
 - **o que encontrar**
 
@@ -13,8 +13,13 @@ O Challenge Forum Hub, é um projeto final oferecido pela alura Challenge Back-E
 
 > java, Spring Boot, Spring Security (JWT), Spring Data JPA, Flyway (Migrations), MySQL, Swagger/OpenAPI.
 
+- **dependências**
+
+> .
+
 ## Compilando e Executando o Forum Hub
-Certifique-se de ter o [intelliJ](https://www.jetbrains.com/idea/download/?section=windows)
+Certifique-se de ter o [intelliJ](https://www.jetbrains.com/idea/download/?section=windows) e o [postman]([https://www.jetbrains.com/idea/download/?section=windows](https://www.postman.com/downloads/)
+
 1. Faça o download do código fonte:
 
 ```sh
@@ -28,19 +33,17 @@ spring.datasource.url=jdbc:mysql://localhost:3306/<nome do banco de dados>
 spring.datasource.username=root
 spring.datasource.password=<senha acesso ao mySql>
 
-
 spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.format_sql=true
 
 api.security.token.secret=${<nome da variável de ambiente, no S.O, onde estará a senha>:<senha que será utilizada, caso não encontre a variável de ambiente>}
 ```
 
-3. Execute o programa:
+3. postman:
 &emsp;&emsp;<img src="pictures/scrD.png" width="838">
 
 ```
-- click em 'Run Main'
-- ou Shift F10
+configure o postman para realizar os testes de autenticação utilizando token, usuário e senha cadastrado via json no banco de dados. 
 ```
 
 > [!IMPORTANT]
