@@ -26,7 +26,6 @@ public class ForumController {
 
     @PostMapping
     @Transactional
-    //precisa devolver o código 201
     public ResponseEntity CadastrarTopico(@RequestBody @Valid DadosCadastroForum dadosCadastroForum, UriComponentsBuilder uriBuilder) {
         var topico = new Topico(dadosCadastroForum);
         repository.save(topico);
@@ -37,14 +36,12 @@ public class ForumController {
     }
 
     @GetMapping
-    //precisa devolver o código 200
     public ResponseEntity <Page<Topico>> ListarTopicos(@PageableDefault(size = 10, sort = {"datacriacao"}, direction = Sort.Direction.ASC) Pageable paginacao) {
         var page = repository.findAll(paginacao);
         return ResponseEntity.ok(page);
     }
 
     @GetMapping("/{id}")
-    //precisa devolver o código 200
     public ResponseEntity ListagemDetalhada(@PathVariable Long id) {
         var topico = repository.getReferenceById(id);
         return ResponseEntity.ok(new DetalhamentoTopico(topico));
@@ -52,8 +49,6 @@ public class ForumController {
 
     @PutMapping
     @Transactional
-    //precisa devolver o código 200
-    //poderia utilizar o mesmo DTO de cadastro, mas optei por criar outro para praticar
     public ResponseEntity AtualizarTopicos(@RequestBody @Valid DadosAtualizacoesForum dadosAtualizacoesForum) {
         var topico = repository.getReferenceById(dadosAtualizacoesForum.id());
         topico.atualizarInformacoes(dadosAtualizacoesForum);
@@ -63,10 +58,8 @@ public class ForumController {
 
     @DeleteMapping("/{id}")
     @Transactional
-    //precisa devolver o código 204
     public ResponseEntity Excluir(@PathVariable Long id) {
         var topico = repository.getReferenceById(id);
-//        topico.excluir(topico);
 
         return ResponseEntity.notFound().build();
     }
