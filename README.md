@@ -52,27 +52,6 @@ usuário e senha cadastrado via json no banco de dados.
 > [!IMPORTANT]
 > O programa funciona somente utilizando uma IDE, neste caso, o [intelliJ](https://www.jetbrains.com/idea/download/?section=windows) com a biblioteca [GSON](https://mvnrepository.com/search?q=GSON) instalada.
 
-## Utilizando o Programa em Execução
-O usuário terá de escolher uma das 06(seis) opções disponíveis conforme abaixo:
-```bash
------------------------------------------------
----- SEJA BEM VINDO AO CONVERSOR DE MOEDAS ----
------------------------------------------------
-1). Dolar -> Peso Argentino
-2). Peso Argentino -> Dolar
-3). Dolar -> Real Brasileiro
-4). Real Brasileiro -> Dolar
-5). Dolar -> Peso Colombiano
-6). Peso Colombiano -> Dolar
-7). Sair
-
--> Escolha uma opção válida: 4
--> Digite o valor que deseja converter: 100
-```
-```bash
-     *** Resultado da Operação ***
-     Valor de 100.0[BRL], corresponde ao valor final de 17.52[USD]
-```
 
 ## Contribuindo
 Esperamos que outras organizações possam se beneficiar do projeto. Agradecemos qualquer contribuição da comunidade.
@@ -108,3 +87,7 @@ COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
 IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
+
+## Agradecimento Especial
+programa de educação e empregabilidade - ONE.
+&emsp;&emsp;<img src="one.png" width="400">
