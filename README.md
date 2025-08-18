@@ -19,7 +19,7 @@ O Challenge Forum Hub, é um projeto final oferecido pela alura Challenge Back-E
 
 
 ## Compilando e Executando o Forum Hub
-Certifique-se de ter o [intelliJ](https://www.jetbrains.com/idea/download/?section=windows) e o [postman](https://www.postman.com/downloads/):
+Certifique-se de ter o [intelliJ](https://www.jetbrains.com/idea/download/?section=windows), o [postman](https://www.postman.com/downloads/) ou até memo o [insomnia](https://www.jetbrains.com/idea/download/?section=windows) instalado em seu computador.
 
 1. Faça o download do código fonte:
 
@@ -50,8 +50,7 @@ usuário e senha cadastrado via json no banco de dados.
 ```
 
 > [!IMPORTANT]
-> O programa funciona somente utilizando uma IDE, neste caso, o [intelliJ](https://www.jetbrains.com/idea/download/?section=windows) com postman [postman](https://www.postman.com/downloads/) ou até memo o [insomnia](https://insomnia.rest/download
-)) instalado. Utilize o postman ou qualquer outra ferramenta para realizar os testes da API Rest.
+> O programa funciona somente utilizando uma IDE, neste caso, o [intelliJ](https://www.jetbrains.com/idea/download/?section=windows) com postman [postman](https://www.postman.com/downloads/) ou até memo o [insomnia](https://insomnia.rest/download) instalado em seu computador para realizar os testes com o projeto.
 
 ## Contribuindo
 Esperamos que outras organizações possam se beneficiar do projeto. Agradecemos qualquer contribuição da comunidade.
