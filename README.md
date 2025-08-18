@@ -3,7 +3,7 @@ O Challenge Forum Hub, é um projeto final oferecido pela alura Challenge Back-E
 
 - **objetivo**
 
-> desenvolvido em beck end java, utilizando API Rest.
+> desenvolvido em beck end java, o projeto API Rest realizar teste de autenticação (token e usuário / senha cadastrados no banco de dados) com as requisições GET, POST, PUT e DELETE via postman ou qualquer outra ferramente cliente HTTP de código aberto que possa testar APIs que oferecem recursos de autenticação.
 
 - **o que encontrar**
 
@@ -19,7 +19,7 @@ O Challenge Forum Hub, é um projeto final oferecido pela alura Challenge Back-E
 
 
 ## Compilando e Executando o Forum Hub
-Certifique-se de ter o [intelliJ](https://www.jetbrains.com/idea/download/?section=windows), o [postman](https://www.postman.com/downloads/) ou até memo o [insomnia](https://www.jetbrains.com/idea/download/?section=windows) instalado em seu computador.
+Certifique-se de ter o [intelliJ](https://www.jetbrains.com/idea/download/?section=windows), o [postman](https://www.postman.com/downloads/) ou até memo o [insomnia](https://www.jetbrains.com/idea/download/?section=windows) instalados em seu computador.
 
 1. Faça o download do código fonte:
 
