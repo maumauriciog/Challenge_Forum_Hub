@@ -1,20 +1,18 @@
 package com.challenge.forum.hub.entidades;
 
 import com.challenge.forum.hub.forum.Curso;
+import com.challenge.forum.hub.forum.DadosAtualizacoesForum;
 import com.challenge.forum.hub.forum.DadosCadastroForum;
 import jakarta.persistence.*;
+import jakarta.validation.Valid;
 import lombok.*;
 
 @Entity
 @Table(name = "topicos")
-//cria os métodos get e setters
-@Getter
-@Setter
-//cria um construtor sem argumentos
+@Getter @Setter
 @NoArgsConstructor
-//cria um construtor com argumentos necessário
 @AllArgsConstructor
-@EqualsAndHashCode(of = "id")
+@EqualsAndHashCode(of = {"id", "titulo", "mensagem"})
 public class Topico {
 
     @Id
@@ -37,5 +35,14 @@ public class Topico {
         this.estadotopico = dadosCadastroForum.estadotopico();
         this.autor = dadosCadastroForum.autor();
         this.curso = dadosCadastroForum.curso();
+    }
+
+    public void atualizarInformacoes(@Valid DadosAtualizacoesForum dadosAtualizacoesForum) {
+        this.titulo = dadosAtualizacoesForum.titulo();
+        this.mensagem = dadosAtualizacoesForum.mensagem();
+        this.datacriacao = dadosAtualizacoesForum.datacriacao();
+        this.estadotopico = dadosAtualizacoesForum.estadotopico();
+        this.autor = dadosAtualizacoesForum.autor();
+        this.curso = dadosAtualizacoesForum.curso();
     }
 }

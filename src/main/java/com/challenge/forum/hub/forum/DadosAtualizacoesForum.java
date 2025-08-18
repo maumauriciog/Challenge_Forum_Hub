@@ -3,7 +3,8 @@ package com.challenge.forum.hub.forum;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 
-public record DadosCadastroForum(
+public record DadosAtualizacoesForum(
+        @NotNull
         Long id,
         @NotBlank
         String titulo,
@@ -16,5 +17,6 @@ public record DadosCadastroForum(
         @NotBlank
         String autor,
         @NotNull
-        Curso curso) {
+        Curso curso
+) {
 }
