@@ -36,7 +36,7 @@ spring.datasource.password=<senha acesso ao mySql>
 spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.format_sql=true
 
-api.security.token.secret=${<nome da variável de ambiente, no S.O, onde estará a senha>:<senha que será utilizada, caso não encontre a variável de ambiente>}
+api.security.token.secret=${<nome variável de ambiente com senha>:<senha, caso não encontre na variável de ambiente>}
 ```
 
 3. postman:
