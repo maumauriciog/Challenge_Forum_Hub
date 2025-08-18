@@ -13,25 +13,26 @@ O Challenge Forum Hub, é um projeto final oferecido pela alura Challenge Back-E
 
 > java, Spring Boot, Spring Security (JWT), Spring Data JPA, Flyway (Migrations), MySQL, Swagger/OpenAPI.
 
-## Compilando e Executando o Conversor de Moedas
+## Compilando e Executando o Forum Hub
 Certifique-se de ter o [intelliJ](https://www.jetbrains.com/idea/download/?section=windows)
 1. Faça o download do código fonte:
 
 ```sh
-https://github.com/maumauriciog/challenge_conversor_de_moedas
+https://github.com/maumauriciog/Challenge_Forum_Hub
 ```
 
-2. Instale a biblioteca GSON, após o download (instale após abrir o código fonte no intelliJ - o procódigo fonte precisa desta biblioteca instalada para garantir seu funcionamento):
-
-&emsp;&emsp;<img src="pictures/scrA.png" width="210">&emsp;<img src="pictures/scrB.png" width="243">&emsp;<img src="pictures/scrC.png" width="238">
+2. Configure o acesso no arquivo application.properties, encontrado projeto:
 
 ```
-- vá ao menu File do intelliJ e escolha a opção 'Project Structure'
-- click e 'Modules'
-- click em 'Dependencies' no lado direito
-- click no sinal de '+'
-- click na opção 'JARs or Directories'
-- selecione a biblioteca GSON baixada anteriormente
+spring.datasource.url=jdbc:mysql://localhost:3306/<nome do banco de dados>
+spring.datasource.username=root
+spring.datasource.password=<senha acesso ao mySql>
+
+
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
+
+api.security.token.secret=${<nome da variável de ambiente, no S.O, onde estará a senha>:<senha que será utilizada, caso não encontre a variável de ambiente>}
 ```
 
 3. Execute o programa:
