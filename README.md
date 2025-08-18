@@ -13,9 +13,10 @@ O Challenge Forum Hub, é um projeto final oferecido pela alura Challenge Back-E
 
 > java, Spring Boot, Spring Security (JWT), Spring Data JPA, Flyway (Migrations), MySQL, Swagger/OpenAPI.
 
-- **dependências**
+- **dependências utilizadas**
 
-> .
+> Lombok - Spring Web - Spring Boot Dev Tools - Spring Data JPA - Flyway Migration - MySQL Driver - Validation - Spring Security.
+
 
 ## Compilando e Executando o Forum Hub
 Certifique-se de ter o [intelliJ](https://www.jetbrains.com/idea/download/?section=windows) e o [postman](https://www.postman.com/downloads/):
