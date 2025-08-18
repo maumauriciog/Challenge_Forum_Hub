@@ -91,4 +91,4 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ## Agradecimento Especial
 ONE - programa de educação e empregabilidade
 
-<img src="one.png" width="140">&emsp;&emsp;<img src="oracleAlura.png" width="100">
+<img src="one.png" width="140">&emsp;&emsp;<img src="oracleAlura.png" width="170">
