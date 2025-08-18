@@ -1,7 +1,9 @@
 package com.challenge.forum.hub.controller;
 
 import com.challenge.forum.hub.entidades.usuario.AutenticaDados;
-import com.challenge.forum.hub.forum.DadosAtualizacoesForum;
+import com.challenge.forum.hub.entidades.usuario.Usuario;
+import com.challenge.forum.hub.security.TokenService;
+import com.challenge.forum.hub.security.dadosTokenJWT;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -19,15 +21,13 @@ public class AutenticacaoController {
     @Autowired
     private AuthenticationManager manager;
 
-    @PostMapping
-    public ResponseEntity login(@RequestBody @Valid AutenticaDados dados){
-        var token = new UsernamePasswordAuthenticationToken(dados.login(), dados.senha());
-        var autentica = manager.authenticate(token);
+    private TokenService tokenService;
 
-        return ResponseEntity.ok().build();
+    @PostMapping
+    public ResponseEntity login(@RequestBody @Valid AutenticaDados dados) {
+        var autToken = new UsernamePasswordAuthenticationToken(dados.login(), dados.senha());
+        var authentication = manager.authenticate(autToken);
+        var tokenJWT = tokenService.gerarToken((Usuario) authentication.getPrincipal());
+        return ResponseEntity.ok(new dadosTokenJWT(tokenJWT));
     }
 }
-
-
-
-
