@@ -40,6 +40,7 @@ api.security.token.secret=${<nome da variável de ambiente, no S.O, onde estará
 ```
 
 3. postman:
+
 &emsp;&emsp;<img src="postman.png" width="838">
 
 ```
