@@ -3,11 +3,11 @@ O Challenge Forum Hub, é um projeto final oferecido pela alura Challenge Back-E
 
 - **objetivo**
 
-> simular .
+> desenvolvido em beck end, utilizando API Rest,  .
 
 - **o que encontrar**
 
-> o usuário terá 06(seis) opçoes de escolha para a conversão de moedas.
+> autenticação utilizando token, login com usuário e senha cadastrado no banco de dados; validações utilizando as requisições GET, POST, PUT e DELETE, segurança com autenticação stateless via Tokens JWT e persistência de dados.
 
 - **customizável**
 
