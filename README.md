@@ -27,7 +27,7 @@ Certifique-se de ter o [intelliJ](https://www.jetbrains.com/idea/download/?secti
 https://github.com/maumauriciog/Challenge_Forum_Hub
 ```
 
-2. Configure o acesso no arquivo application.properties, encontrado projeto:
+2. Configure o acesso ao banco de dados no arquivo application.properties, encontrado projeto:
 
 ```
 spring.datasource.url=jdbc:mysql://localhost:3306/<nome do banco de dados>
