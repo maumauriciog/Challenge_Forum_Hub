@@ -1,4 +1,4 @@
-# Forum Hub&emsp;![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)<img src="https://img.shields.io/badge/IntelliJ_IDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white" /><img src="https://img.shields.io/badge/json-5E5C5C?style=for-the-badge&logo=json&logoColor=white" />
+# Challenge Forum Hub&emsp;![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)<img src="https://img.shields.io/badge/IntelliJ_IDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white" /><img src="https://img.shields.io/badge/json-5E5C5C?style=for-the-badge&logo=json&logoColor=white" />
 O Challenge Forum Hub, é um dos projetos oferecidos pelo ONE - programa de educação e empregabilidade em parceria com alura. Este challenge, foi um desafio obrigatório após a conclusão do módulo spring boot. Módulo que pertence ao programa de capacitação ao qual estou incluído.
 
 - **objetivo**
