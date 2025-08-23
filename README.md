@@ -54,10 +54,10 @@ usuário e senha cadastrado via json no banco de dados.
 > O programa funciona somente utilizando uma IDE, neste caso, o [intelliJ](https://www.jetbrains.com/idea/download/?section=windows) com [postman](https://www.postman.com/downloads/) ou até memo o [insomnia](https://insomnia.rest/download) instalado em seu computador para realizar os testes com o projeto.
 
 ## Contribuindo
-Esperamos que outras organizações possam se beneficiar do projeto. Agradecemos qualquer contribuição da comunidade.
+Espero que outras organizações ou até mesmo usuários, possam se beneficiar do projeto. Agradeço qualquer contribuição da comunidade.
 
 ## Contato
-Temos os seguintes canais para contato:
+Tenho o seguinte canal para contato:
 - maumauriciog@hotmail.com
   - `no campo Assunto escreva: Ajuda` para assuntos de como utilizar o sistema; e
   - `no campo Assunto escreva: Quero Contribuir` para aqueles que desejam contribuir.
