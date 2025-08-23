@@ -50,7 +50,7 @@ configure o postman para realizar os testes de autenticação utilizando token,
 usuário e senha cadastrado via json no banco de dados. 
 ```
 
-> [!IMPORTANT]
+> [!IMPORTANTE]
 > O programa funciona somente utilizando uma IDE, neste caso, o [intelliJ](https://www.jetbrains.com/idea/download/?section=windows) com postman [postman](https://www.postman.com/downloads/) ou até memo o [insomnia](https://insomnia.rest/download) instalado em seu computador para realizar os testes com o projeto.
 
 ## Contribuindo
