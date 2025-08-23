@@ -28,7 +28,7 @@ https://github.com/maumauriciog/Challenge_Forum_Hub
 ```
 
 2. Configure o acesso ao banco de dados no arquivo application.properties, encontrado no projeto:
-   obs.: não esquecer de criar um banco de dados primeiro antes de executar a aplicação. É com este BD criado, que irá colocar no script abaixo.
+   obs.: não esquecer de criar um banco de dados no programa MySql Workbanch primeiro antes de executar a aplicação. É com este BD criado, que irá colocar no script abaixo.
 
 ```
 spring.datasource.url=jdbc:mysql://localhost:3306/<nome do banco de dados>
