@@ -51,7 +51,7 @@ usuário e senha cadastrado via json no banco de dados.
 ```
 
 > [!IMPORTANT]
-> O programa funciona somente utilizando uma IDE, neste caso, o [intelliJ](https://www.jetbrains.com/idea/download/?section=windows) com postman [postman](https://www.postman.com/downloads/) ou até memo o [insomnia](https://insomnia.rest/download) instalado em seu computador para realizar os testes com o projeto.
+> O programa funciona somente utilizando uma IDE, neste caso, o [intelliJ](https://www.jetbrains.com/idea/download/?section=windows) com [postman](https://www.postman.com/downloads/) ou até memo o [insomnia](https://insomnia.rest/download) instalado em seu computador para realizar os testes com o projeto.
 
 ## Contribuindo
 Esperamos que outras organizações possam se beneficiar do projeto. Agradecemos qualquer contribuição da comunidade.
