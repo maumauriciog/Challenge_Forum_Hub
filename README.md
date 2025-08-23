@@ -3,7 +3,7 @@ O Challenge Forum Hub, é um dos projetos oferecidos pelo ONE - programa de educ
 
 - **objetivo**
 
-> desenvolvido em beck end java, o projeto API Rest realiza testes de autenticação (token e usuário / senha cadastrados no banco de dados) com as requisições GET, POST, PUT e DELETE via postman ou qualquer outra ferramenta cliente HTTP de código aberto que possa testar APIs que oferecem recursos de autenticação.
+> desenvolvido em beck end java, o projeto API Rest realiza testes de autenticação com token e com usuário / senha (cadastrados no banco de dados) com as requisições GET, POST, PUT e DELETE via postman ou qualquer outra ferramenta cliente HTTP de código aberto que possa testar APIs que oferecem recursos de autenticação.
 
 - **o que encontrar**
 
