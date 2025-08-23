@@ -28,7 +28,7 @@ https://github.com/maumauriciog/Challenge_Forum_Hub
 ```
 
 2. Configure o acesso ao banco de dados no arquivo application.properties, encontrado no projeto:
-obs.: não esquecer de criar um banco de dados primeiro antes de executar a aplicação. É com este BD criado, que irá colocar no script abaixo.
+   obs.: não esquecer de criar um banco de dados primeiro antes de executar a aplicação. É com este BD criado, que irá colocar no script abaixo.
 
 ```
 spring.datasource.url=jdbc:mysql://localhost:3306/<nome do banco de dados>
@@ -50,7 +50,7 @@ configure o postman para realizar os testes de autenticação utilizando token,
 usuário e senha cadastrado via json no banco de dados. 
 ```
 
-> [!IMPORTANTE]
+> [!IMPORTANT]
 > O programa funciona somente utilizando uma IDE, neste caso, o [intelliJ](https://www.jetbrains.com/idea/download/?section=windows) com postman [postman](https://www.postman.com/downloads/) ou até memo o [insomnia](https://insomnia.rest/download) instalado em seu computador para realizar os testes com o projeto.
 
 ## Contribuindo
