@@ -11,7 +11,7 @@ O Challenge Forum Hub, é um dos projetos oferecidos pelo ONE - programa de educ
 
 - **tecnologias**
 
-> java, Spring Boot, Spring Security (JWT), Spring Data JPA, Flyway (Migrations), MySQL, Swagger/OpenAPI.
+> java, Spring Boot, Spring Security (JWT), Spring Data JPA, Flyway (Migrations), MySQL, Swagger / OpenAPI.
 
 - **dependências utilizadas**
 
@@ -28,6 +28,7 @@ https://github.com/maumauriciog/Challenge_Forum_Hub
 ```
 
 2. Configure o acesso ao banco de dados no arquivo application.properties, encontrado no projeto:
+obs.: não esquecer de criar um banco de dados primeiro antes de executar a aplicação. É com este BD criado, que irá colocar no script abaixo.
 
 ```
 spring.datasource.url=jdbc:mysql://localhost:3306/<nome do banco de dados>
